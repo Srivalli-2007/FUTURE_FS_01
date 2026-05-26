@@ -1,53 +1,108 @@
-# Personal Portfolio Website:- 
+# 🌐 Personal Portfolio Website
 
-📌Project Overview
-  This project is a responsive and professional personal portfolio website developed as part of the Full Stack Web Development Internship task.
+## 📌 Project Overview
+This project is a **Personal Portfolio Website** developed as part of my **Full Stack Web Development Internship** task.
 
-The website showcases:
-* Personal introduction
-* Skills
-* Projects and internship work
-* Contact information
-* Responsive modern UI design
+The portfolio website represents my professional profile, technical skills, projects, certifications, and contact details in a clean and responsive design.
 
-This portfolio acts as a digital resume and proof of work for recruiters, clients, and hiring managers.
+It acts as my **digital resume + proof of work**.
 
- 🚀 Features
-✅ Responsive Design
-✅ Modern Dark Theme UI
-✅ Professional Homepage
-✅ About Me Section
-✅ Skills Section
-✅ Projects Showcase
-✅ Contact Form
-✅ Social Media Links
-✅ Smooth Scrolling Navigation
-✅ Mobile-Friendly Layout
+---
 
- 🛠️ Technologies Used
-* HTML5
-* CSS3
-* JavaScript
-* Font Awesome Icons
+## 🚀 Features
 
-💡 Objective of the Task
-The main objective of this project is to build a clean, responsive, and professional portfolio website that represents personal skills, projects, and background as a Full Stack Web Development Intern.
+✅ Responsive Portfolio Website  
+✅ Professional Home Page  
+✅ About Me Section  
+✅ Skills Section  
+✅ Projects Showcase  
+✅ Certifications Section  
+✅ Contact Form  
+✅ Email Integration using EmailJS  
+✅ Smooth Navigation  
+✅ Modern UI Design  
+✅ Mobile Friendly Layout  
 
-👩‍💻 Author
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Email Service
+- EmailJS
+
+### Tools
+- VS Code
+- GitHub
+- Live Server
+
+---
+
+## 📂 Website Sections
+
+### 🏠 Home
+Introduces my profile and role as a Full Stack Web Development Intern.
+
+### 👩‍💻 About
+Contains information about my background, interests, and career goals.
+
+### 🧠 Skills
+Displays technical and soft skills including:
+- HTML
+- CSS
+- JavaScript
+- Python
+- Java
+- Cloud Computing
+- DBMS
+- Problem Solving
+- Team Work
+- Communication Skills
+
+### 💼 Projects
+Showcases internship and academic projects.
+
+### 🏆 Certifications
+Displays certifications and achievements.
+
+### 📧 Contact
+Users can directly send messages to my Gmail using EmailJS integration.
+
+---
+
+## 📩 Contact Form Functionality
+
+The contact section is integrated with **EmailJS**.
+
+When a user fills out the form and clicks **Send Message**:
+- The message is directly sent to my Gmail account
+- No backend server is required
+- Real-time email delivery is enabled
+
+---
+
+## 👩‍🎓 Author
+
 ### Nalli Srivalli
-* CSE 2nd Year Student
-* Full Stack Web Development Intern
+- CSE 2nd Year Student
+- Full Stack Web Development Intern
 
- 📧 Contact
-Email: [sreevallinalli@gmail.com](mailto:sreevallinalli@gmail.com)
+📧 Email: sreevallinalli@gmail.com
 
-🌐 Future Improvements
-* Resume Download Feature
-* Dark/Light Theme Toggle
-* Project Images
-* Blog Section
-* Backend Integration
-* Database Connectivity
+---
 
- 📜 License
+## ⭐ Future Improvements
+- Dark/Light Theme Toggle
+- Resume Download Option
+- Animations
+- Backend Integration
+- Database Support
+
+---
+
+## 📜 License
 This project is developed for educational and internship purposes.
