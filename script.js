@@ -6,12 +6,37 @@ window.onload = function () {
 
 }
 
-// Contact Form Message
+// Initialize EmailJS
 
-document.querySelector("form").addEventListener("submit", function(e){
+emailjs.init("p1lC_jItNs8Ic4CGW");
 
-    e.preventDefault();
+// Contact Form
 
-    alert("Message Sent Successfully!");
+document
+.getElementById("contact-form")
+
+.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    emailjs.sendForm(
+        "service_3orgxp2",
+        "template_kqhg7pl",
+        this
+    )
+
+    .then(function(){
+
+        alert("Message Sent Successfully!");
+
+    },
+
+    function(error){
+
+        alert("Failed to Send Message");
+
+        console.log(error);
+
+    });
 
 });
